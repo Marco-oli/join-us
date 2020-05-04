@@ -14,12 +14,11 @@ const Logo = styled.div `
 const NavBar = styled.div `
     display: flex;
     flex-direction: row;
-   
     width: 100%;
     border-top: 1px solid ${colors.grayLighter};
     border-bottom: 1px solid ${colors.grayLighter};
     padding: 20px 40px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 `;
 
 const BoxLogin = styled.div`
