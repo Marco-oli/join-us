@@ -10,6 +10,7 @@ const Container = styled.div`
     justify-content: space-evenly;
     align-items: center;
     margin: 20px auto 105px;
+    position: relative;
 `;
 
 const ContainerVideo = styled.div`

@@ -23,15 +23,15 @@ function Header() {
             </Logo>
             <NavBar>
                 <BoxLogin>
-                    <Links Size={12} href="#" Color={colors.grayStrong}>Entrar</Links>
+                    <Links Size={12} href="" Color={colors.grayStrong}>Entrar</Links>
                     <p>|</p>
-                    <Links Size={12} href="#" Color={colors.grayStrong}>Cadastre-se</Links>
+                    <Links Size={12} href="" Color={colors.grayStrong}>Cadastre-se</Links>
                 </BoxLogin>
                 <BoxMenu>
-                    <Links Size={14} href="#" Color={colors.grayStrong}>SAPATOS</Links>
-                    <Links Size={14} href="#" Color={colors.grayStrong}>BOLSAS</Links>
-                    <Links Size={14} href="#" Color={colors.grayStrong}>ACESSÓRIOS</Links>
-                    <Links Size={14} href="#" Color={colors.grayStrong}>OFF</Links>
+                    <Links Size={14} href="" Color={colors.grayStrong}>SAPATOS</Links>
+                    <Links Size={14} href="" Color={colors.grayStrong}>BOLSAS</Links>
+                    <Links Size={14} href="" Color={colors.grayStrong}>ACESSÓRIOS</Links>
+                    <Links Size={14} href="" Color={colors.grayStrong}>OFF</Links>
                 </BoxMenu>
                 <BoxSearch>
                     <div className="search">

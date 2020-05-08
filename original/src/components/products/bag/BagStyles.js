@@ -1,15 +1,15 @@
 import styled from 'styled-components';
 
-import colors from '../../assets/colors';
-import images from '../../assets/images';
+import colors from '../../../assets/colors';
+import images from '../../../assets/images';
 
 const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, .6);
 `;
 
@@ -57,6 +57,7 @@ const Exit = styled.a`
     background-image: url(${images.Exit});
     background-repeat: none;
 `;
+
 
 export {
     Container,
